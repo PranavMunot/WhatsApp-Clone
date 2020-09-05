@@ -1,0 +1,32 @@
+.App {
+  /* text-align: center; */
+  background-color: #dadbd3;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+}
+
+.mainsection {
+  display: flex;
+  height: 97vh;
+  width: 80vw;
+  background-color: #ededed;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.log_container > h1 {
+  text-align: center;
+}
